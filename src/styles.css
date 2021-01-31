@@ -527,7 +527,10 @@ transition: ease 0.5s;
       height: 35px;
   }
  .layout-header{
-  background-size: contain;
+   width: 120%;
+   position: absolute;
+   left: 0;
+  background-size: auto;
  }
   .layout-header h1{
       font-family: 'Buda', cursive;
@@ -622,4 +625,22 @@ transition: ease 0.5s;
       "service9 service10";
   }
 
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 150px;
+  background-color: rgb(111, 0, 255);
+  padding: 50px;
+  font-size: 20px;
+  width: 190px;
+  height: 150px;
+  text-align: center;
+  font-family: 'Buda', cursive;
+  font-weight:bold;
+  
+  z-index: 5;
+  color: aliceblue;
 }
