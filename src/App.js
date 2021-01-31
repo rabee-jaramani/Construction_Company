@@ -3,6 +3,7 @@ import LAYOUT from "./LAYOUT";
 import NAVBAR from "./NAVBAR";
 import SERVICES from './SERVICES';
 import ABOUT from './ABOUT';
+import FOOTER from "./FOOTER";
 
 
 export default class App extends React.Component{
@@ -57,6 +58,7 @@ scrollTop: '0px'
   <LAYOUT/>
   <SERVICES/>
   <ABOUT/>
+  <FOOTER/>
     </div>
   );
 }
