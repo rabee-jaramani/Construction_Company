@@ -50,7 +50,10 @@ scrollTop: '0px'
   render(){
   return (
     <div className="App">
+   
+
   <NAVBAR/>
+  <div class="sticky"> Sorry! Website Under Maintenence</div>
   <LAYOUT/>
   <SERVICES/>
   <ABOUT/>
