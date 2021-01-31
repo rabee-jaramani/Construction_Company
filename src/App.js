@@ -53,7 +53,7 @@ scrollTop: '0px'
    
 
   <NAVBAR/>
-  <div class="sticky"> Sorry! Website Under Maintenence</div>
+  <div class="sticky"> Sorry! Website Under Maintenance</div>
   <LAYOUT/>
   <SERVICES/>
   <ABOUT/>
